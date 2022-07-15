@@ -30,9 +30,7 @@ h1 {
 }
 
 .cellules:nth-child(6) ~ .cellules{border-bottom: none;}
-{
-  border-bottom: none;
-}
+
 .bordure {
   width: 300px;
   display: flex;
