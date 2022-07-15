@@ -24,16 +24,44 @@ h1 {
   cursor: pointer;
 }
 
-.cellules:nth-child(3n) 
-{
+.cellules:nth-child(3n) {
   border-right: none;
 }
 
-.cellules:nth-child(6) ~ .cellules{border-bottom: none;}
+.cellules:nth-child(6) ~ .cellules {
+  border-bottom: none;
+}
 
 .bordure {
   width: 300px;
   display: flex;
   flex-wrap: wrap;
   margin: 64px;
+}
+.blanc {
+  color: white;
+}
+
+#finDuJeuStatu {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+}
+
+#finDuJeuStatu p,
+#finDuJeuStatu input {
+  position: fixed;
+  top: 45%;
+  left: 45;
+  transform: translate(-45%, -45%);
+  text-align: center;
+}
+#finDuJeuStatu p {
+  margin-top: 32px;
 }
