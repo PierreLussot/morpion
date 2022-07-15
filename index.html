@@ -7,7 +7,27 @@
     <title>Morpion</title>
   </head>
   <body>
-    
-    <script src="script.js"></script>
+    <div id="finDuJeu">
+      <p class="blanc" id="finDuJeuStatu"></p>
+      <input
+        type="submit"
+        id="rechargementJeu"
+        value="Recommencer"
+        onclick="rechargementJeu()"
+      />
+    </div>
+    <div class="bordure">
+      <div class="cellules" data-cell>1</div>
+      <div class="cellules" data-cell>2</div>
+      <div class="cellules" data-cell>3</div>
+      <div class="cellules" data-cell>4</div>
+      <div class="cellules" data-cell>5</div>
+      <div class="cellules" data-cell>6</div>
+      <div class="cellules" data-cell>7</div>
+      <div class="cellules" data-cell>8</div>
+      <div class="cellules" data-cell>9</div>
+    </div>
+    <h1 id="statuDuJeu">Le joueur 1 commence</h1>
+    <script src="main.js"></script>
   </body>
 </html>
