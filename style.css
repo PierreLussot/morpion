@@ -31,6 +31,11 @@ h1 {
 .cellules:nth-child(6) ~ .cellules {
   border-bottom: none;
 }
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 .bordure {
   width: 300px;
@@ -58,9 +63,9 @@ h1 {
 #finDuJeu p,
 #finDuJeu input {
   position: fixed;
-  top: 45%;
-  left: 45%;
-  transform: translate(-45%, -45%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 #finDuJeu p {
